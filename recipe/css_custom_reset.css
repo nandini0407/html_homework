@@ -1,0 +1,157 @@
+
+html, body, aside, section, h1, h2, form, label, input, p, footer {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+  vertical-align: baseline;
+
+}
+
+body {
+  padding: 20px;
+  font-family: sans-serif;
+  color: black;
+  width: 900px;
+  margin: 0 auto;
+}
+
+header > img {
+  width: 100px;
+  float: left;
+}
+
+figure > img {
+  width: 500px
+}
+
+h1 {
+  font-size: x-large;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: large;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+section {
+  width: 700px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+aside {
+  width: 180px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+input#rating {
+    cursor: pointer;
+    outline: none;
+    background-image: url(star.png);
+}
+
+input[type="submit"] {
+    background-color: gold;
+}
+
+input[type="submit"]:hover {
+    background-color: brown;
+}
+
+select#expertise {
+    cursor: pointer;
+    outline: none;
+}
+
+ol {}
+
+li:nth-of-type(2n) {
+    background-color: bisque;
+}
+
+ul {
+    display: inline-block;
+}
+
+nav {
+  float: right;
+}
+
+nav {
+  display: inline-block;
+  padding: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+}
+
+aside ul li {
+  margin: 15px 0 15px 0;
+}
+
+section ol li {
+  margin: 15px 0 15px 0;
+}
+
+section input[type="text"] {
+  display: block;
+  width: 175px;
+  border: 2px solid black;
+}
+
+section input[type="submit"] {
+  display: block;
+  width: 150px;
+  border: 2px solid black;
+  margin: 15px;
+}
+
+section select {
+  display: block;
+  margin: 10px 0;
+}
+
+textarea {
+  width: 350px;
+}
+
+height: 50px;
+/* nearest relatively positioned parent of absolute positioned child */
+position: relative;
+cursor: pointer;
+}
+.hamburger-dropdown ul {
+/* Every time we position an element absolutely we should be thinking about
+which parent element we need to position relatively */
+position: absolute;
+top: 50px;
+left: 0;
+flex-direction: column;
+cursor: pointer;
+box-shadow: black 5px 5px 10px;
+}
+
+/* This is how we create pure css dropdown effects. No JS required. */
+.hamburger-dropdown:hover ul {
+display: flex;
+background: ghostwhite;
+}
+
+.hamburger-dropdown ul li:hover a {
+text-decoration: underline;
+}
