@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <title>Nandini's Recipes</title>
+    <meta charset="utf-8" name="description" content="A very tasty low cal recipe for the health-conscious!">
+    <link rel="stylesheet" href="/Users/nandini/app_academy/course_work/g_pages/recipe/css_custom_reset.css" type="text/css">
+    <link rel="stylesheet" href="/Users/nandini/app_academy/course_work/g_pages/recipe/custom_grid.css" type="text/css">
+    <script type="text/javascript" src="/Users/nandini/app_academy/course_work/g_pages/recipe/external_javascript_example.js"></script>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-12345678-9', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+  </head>
+  <body>
+      <header class="cf">
+        <img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Appacademylogo.png/175px-Appacademylogo.png alt="App Academy Logo">
+        <nav>
+          <!-- <ul>
+            <li><a href="#ingredients">Ingredients</a></li>
+            <li><a href="#method">Method</a></li>
+          </ul> -->
+          <ul class="hamburger-dropdown">
+            <li>
+              <ul>
+                <li><a href="#ingredients">Ingredients</a></li>
+                <li><a href="#method">Method</a></li>
+              </ul>
+            </li>
+         </ul>
+        </nav>
+      </header>
+
+
+      <aside class="col col-1-3">
+        <h2 id="ingredients">Ingredients</h2>
+        <ul>
+            <li>Green lentils - 3/4 cup</li>
+            <li>Mixed beans, soaked overnight (optional) - 1/2 cup</li>
+            <li>Water - 5 cups</li>
+            <li>Potatoes, cubed - 2 med to large</li>
+            <li>Carrots, diced - 1.5 med or 1 large</li>
+            <li>Spinach, chopped - half a bunch</li>
+            <li>Dried thyme - 1 tbsp</li>
+            <li>Green chillies, finely chopped - to taste</li>
+            <li>Ground peppercorn - to taste</li>
+            <li>Salt</li>
+            <li>Turmeric - a pinch</li>
+            <li>Lemon juice - to taste</li>
+            <li>Bay leaf - 1</li>
+            <li>Onion - 1/4 as it is (don’t chop this, it will be removed after boiling)</li>
+            <li>Cayenne pepper - to taste</li>
+            <li>Ground corriander - to taste</li>
+            <li>Ground cumin - to taste</li>
+            <li>Paprika - to taste</li></ul>
+          <a name="Ingredients" />
+
+          <a href="#Ingredients">Back to top</a>
+          <br>
+          <br>
+      </aside>
+
+      <section class="col col-2-3">
+        <h1>Lentil Bean Stew</h1><br>
+        <figure>
+          <img src="/Users/nandini/app_academy/course_work/g_pages/recipe/IMG_2391.jpg"
+          alt="Lentil Bean Stew">
+          <figcaption>Lentil Bean Stew <a href=https://en.wikipedia.org/wiki/Stew>Wiki</a><figcaption>
+        </figure><br>
+
+        <h2 id="method">Method</h2><br>
+        <ol>
+            <li>Mix the green lentils with soaked beans, salt, dried thyme, green chillies, bay leaf and the chunk of onion.</li>
+            <li>Bring to a boil and simmer for 20-25 minutes. Remove the onion and bay leaf.</li>
+            <li>Add all other ingredients except spinach and lemon juice.</li>
+            <li>Simmer till vegetables, beans and lentils are tender (about 20 min).</li>
+            <li>Now add spinach and lemon juice, simmer till spinach wilts. Serve hot.</li>
+      </section>
+
+        <br>
+
+      <section id="reviews">
+        <form id="review-form" action=https://nandini0407.github.io/html_homework/recipe/nandini_adhyapaka_lentil_stew.html/reviews method="post">
+          <label for="reviewer_name">Name</label>
+          <input type="text" name="Name" id="reviewer_name">
+          <br>
+          <br>
+
+          <input type="radio" name="Rating" value="1" checked>
+          <input type="radio" name="Rating" value="2">
+          <input type="radio" name="Rating" value="3">
+          <input type="radio" name="Rating" value="4">
+          <input type="radio" name="Rating" value="5">
+
+          <br>
+          <br>
+
+          <select name="expertise">
+            <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Expertise</option>
+            <option value="Sometimes cook">Sometimes cook</option>
+            <option value="Cook everyday">Cook everyday</option>
+            <option value="Cooking is a hobby">Cooking is a hobby</option>
+            <option value="Professional chef">Professional chef</option>
+          </select>
+
+          <br>
+          <br>
+
+          <label>Review<br>
+            <textarea name="review" rows="8" cols="40"></textarea>
+          </label>
+
+          <br>
+
+          <input type="submit" value="Submit Review">
+        </form>
+      </section>
+
+      <footer>
+        <p>Recipe inspired by <a href=http://blog.myfitnesspal.com/lentil-sweet-potato-spinach-stew/>MyFitnessPal</a><p>
+      </footer>
+
+  </body>
+</html>
